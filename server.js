@@ -16,7 +16,7 @@ connectDB();
 
 app.use(express.json())
 const corsOptions = {
-    origin: 'https://mindfulfullstack-e1moh4oz5-chetangupta12344-gmailcom.vercel.app/', 
+    origin: '*', 
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     credentials: true, 
     optionsSuccessStatus: 204, 
